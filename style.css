@@ -1,0 +1,166 @@
+/* Importing fonts */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Black.ttf") format("truetype");
+    font-weight: bolder;
+  }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Light.ttf") format("truetype");
+    font-weight: light;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+/* The Main CSS */
+
+body {
+    font-family: 'Roboto';
+}
+
+/* Dark Background Section (Header + This website is awesome) */
+
+.dark-blue {
+    background-color:#1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+    gap: 25px;
+}
+
+.logo {
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    padding: 100px 0;
+}
+
+.main .text {
+    color: #F9FAF8;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+.main .text h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.placeholder {
+    background-color: #e5e7eb7d;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    padding: 0 180px;
+    white-space: nowrap;
+}
+
+button {
+    background-color:#3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+/* Information & Images section */
+
+.info {
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937; 
+    margin: 40px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.images .illustration {
+    border: 3px solid #3882F6;
+    padding: 80px 0;
+    border-radius: 10px;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    padding: 100px 350px;
+    margin: 50px 0;
+}
+
+.quote-person {
+    text-align: end;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Call To Action */
+
+.cta {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-radius: 10px;
+    margin: 50px 200px;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta .signup {
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+h1, h2, .cta p {
+    margin: 0; /* This is to overwrite the default margin-y value of 0.67em that these tags have on Google Chrome */
+}
+
+/* Footer */
+
+.footer {
+    margin: 50px 0;
+    background-color:#1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
